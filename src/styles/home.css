@@ -1,0 +1,64 @@
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vw;
+    justify-content: center;
+}
+
+.home h1{
+    color: rgb(7, 116, 194);
+    margin-top: 4vw;
+    text-align: center;
+    flex: 1 1 100%;
+}
+
+.card{
+    max-width: 220px;
+    background-color: rgba(0, 87, 150, 0.5);
+    padding: 25px;
+    border-radius: 3px;
+    justify-items: center;
+    align-content: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    cursor: pointer;
+}
+
+.card h2{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.card p{
+    color: #ffffff;
+    text-align: justify;
+}
+
+.linha{
+    height: 2px;
+    background-color: #ffffff;
+    margin: 20px 0;
+    width: 70%; /* or a smaller width like 50% */
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(9, 34, 80, 0.5); /* dark film */
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* hidden by default */
+    transition: opacity 0.3s ease;
+}
+.card:hover .overlay {
+  opacity: 1; /* show the film */
+}
+
+.overlay img{
+    width: 50px;
+}
