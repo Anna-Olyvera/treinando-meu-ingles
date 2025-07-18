@@ -1,12 +1,20 @@
-# React + Vite
+# 📚 How to Train Your English (em desenvolvimento)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto How to Train Your English tem como objetivo ajudar as pessoas a praticarem o inglês por meio de atividades simples que, quando feitas com frequência, estimulam o vocabulário, a compreensão e o raciocínio linguístico.
 
-Currently, two official plugins are available:
+O funcionamento é o seguinte: o usuário escolhe uma das atividades disponíveis e, ao final, deve enviar sua resposta para validação. Se estiver correta, receberá uma confirmação positiva; caso contrário, além do retorno negativo, receberá uma mensagem explicativa para ajudar no aprendizado.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**React + Vite**  
+  Estrutura moderna e rápida para desenvolvimento web com hot reload e excelente performance.
+
+**Arquivos JSON**  
+  Armazenamento dos dados em arquivos JSON para facilitar a leitura e manipulação das informações. Foi escolhido o uso de arquivos JSON para o armazenamento dos dados, em vez de um banco de dados, devido à simplicidade da aplicação, que não demanda a complexidade e estrutura de um sistema de banco de dados completo. Essa abordagem facilita o desenvolvimento, a manutenção e a distribuição do projeto.
+
+**Material UI (MUI)**  
+  Biblioteca de componentes React baseada no Material Design, garantindo consistência visual, responsividade e acessibilidade.
+  
+---
