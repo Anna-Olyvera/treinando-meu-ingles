@@ -12,7 +12,7 @@ export default function Home() {
                 <div class="linha"></div>
                 <p>You must randomly select the words and write a sentence using all of them. Once you're done, click the verification button: the sentence will be sent to the assistant AI, which will check if it is correct or not.</p>
                 <div class="overlay">
-                    <img src="/imgs/carbon--play-filled.svg" alt="start play" />
+                    <img src="${import.meta.env.BASE_URL}imgs/carbon--play-filled.svg" alt="start play" />
                 </div>
             </Link>
 
@@ -21,7 +21,7 @@ export default function Home() {
                 <div class="linha"></div>
                 <p>You must randomly select the images and write what they show. Once you're done, click the verification button.</p>
                 <div class="overlay">
-                    <img src="/imgs/carbon--play-filled.svg" alt="start play" />
+                    <img src="${import.meta.env.BASE_URL}imgs/carbon--play-filled.svg" alt="start play" />
                 </div>
             </Link>
         </div>
