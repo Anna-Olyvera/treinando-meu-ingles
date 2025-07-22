@@ -5,7 +5,7 @@ export default function ProjectHead() {
     return(
         <header>
             <div>
-                <img src={`/imgs/logo.ico`} alt="logo Climb Know" />
+                <img src={`${import.meta.env.BASE_URL}imgs/logo.svg`} alt="logo Climb Know" />
             </div>
 
             <div class="grid-button">
