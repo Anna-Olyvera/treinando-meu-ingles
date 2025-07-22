@@ -16,9 +16,9 @@ export default function RowRadioButtonsGroup() {
         <FormControlLabel value="beginner" control={<Radio />} label="Beginner" />
         <FormControlLabel value="elementary" control={<Radio />} label="Elementary" />
         <FormControlLabel value="intermediate" control={<Radio />} label="Intermediate" />
-        <FormControlLabel value="proficient" control={<Radio />} label="Proficient"/>
-        <FormControlLabel value="advanced" control={<Radio />} label="Advanced"/>
         <FormControlLabel value="upperIntermediate" control={<Radio />} label="Upper Intermediate"/>
+        <FormControlLabel value="advanced" control={<Radio />} label="Advanced"/>
+        <FormControlLabel value="proficient" control={<Radio />} label="Proficient"/>
       </RadioGroup>
     </FormControl>
   );

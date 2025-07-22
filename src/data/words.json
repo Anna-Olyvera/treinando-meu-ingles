@@ -1,0 +1,56 @@
+{
+  "beginner": {
+    "subjects": ["I", "you", "he", "she", "it", "we", "they", "a boy", "the girl", "my friend", "the dog", "my house", "the teacher", "a student"],
+    "verbs": ["like", "play", "eat", "go", "have", "be", "read", "drink", "walk", "watch"],
+    "objects": ["pizza", "books", "football", "water", "TV", "a cat", "music", "school", "a car", "a dog"],
+    "adjectives": ["happy", "sad", "big", "small", "good", "bad", "hot", "cold", "fun", "tired"],
+    "adverbs": ["quickly", "slowly", "well", "badly", "here", "there", "always", "never", "today", "now"],
+    "sentenceType": ["affirmative", "negative", "interrogative"],
+    "verbTense": ["present"]
+  },
+  "elementary": {
+    "subjects": ["my brother", "our family", "the children", "his friend", "her parents", "the students", "my teacher", "a doctor", "the baby", "their house", "a woman", "the man", "my classmates"],
+    "verbs": ["need", "want", "make", "take", "study", "help", "clean", "drive", "listen", "cook"],
+    "objects": ["homework", "the kitchen", "a sandwich", "music", "a computer", "the house", "a bike", "a pen", "the floor", "the bus"],
+    "adjectives": ["friendly", "hungry", "angry", "beautiful", "clean", "dirty", "early", "late", "strong", "weak"],
+    "adverbs": ["often", "sometimes", "rarely", "usually", "early", "later", "inside", "outside", "easily", "loudly"],
+    "sentenceType": ["affirmative", "negative", "interrogative"],
+    "verbTense": ["present", "past"]
+  },
+  "intermediate": {
+    "subjects": ["my best friend and I", "a group of tourists", "the team", "my classmates and I", "my boss", "the people in the room", "each student", "some children", "many people", "nobody", "someone", "the whole family"],
+    "verbs": ["explain", "decide", "build", "travel", "borrow", "lend", "improve", "plan", "forget", "remember"],
+    "objects": ["a decision", "a trip", "a plan", "an explanation", "a question", "the project", "a message", "a phone call", "a ticket", "an answer"],
+    "adjectives": ["confused", "nervous", "excited", "polite", "rude", "careful", "successful", "bored", "interesting", "serious"],
+    "adverbs": ["carefully", "eagerly", "politely", "honestly", "seriously", "completely", "almost", "exactly", "nearly", "eventually"],
+    "sentenceType": ["affirmative", "negative", "interrogative"],
+    "verbTense": ["present", "past", "future"]
+  },
+  "upperIntermediate": {
+    "subjects": ["those who arrived late", "anyone interested", "the majority of students", "the person in charge", "most of us", "the members of the committee", "whoever called earlier", "my colleagues at work", "someone I know", "what she said", "those involved"],
+    "verbs": ["negotiate", "recommend", "analyze", "influence", "persuade", "express", "evaluate", "complain", "invest", "compare"],
+    "objects": ["a contract", "an opinion", "the situation", "an investment", "the performance", "a solution", "a product", "an experience", "a policy", "feedback"],
+    "adjectives": ["reasonable", "efficient", "challenging", "productive", "reliable", "ambitious", "creative", "confident", "independent", "intelligent"],
+    "adverbs": ["significantly", "specifically", "constantly", "frequently", "incredibly", "mostly", "nevertheless", "however", "therefore", "moreover"],
+    "sentenceType": ["affirmative", "negative", "interrogative"],
+    "verbTense": ["present", "past", "future"]
+  },
+  "advanced": {
+    "subjects": ["what matters most", "those who disagree", "everything he told us", "the reason why we left", "each of the participants", "what she believes", "how they reacted", "everything we discussed", "none of them", "what was decided", "the outcome of the meeting"],
+    "verbs": ["demonstrate", "acknowledge", "implement", "anticipate", "illustrate", "justify", "criticize", "propose", "interpret", "overcome"],
+    "objects": ["a hypothesis", "a strategy", "a theory", "an argument", "a challenge", "a proposal", "a methodology", "a framework", "a perspective", "a conclusion"],
+    "adjectives": ["innovative", "strategic", "controversial", "subtle", "thorough", "logical", "insightful", "ambiguous", "plausible", "systematic"],
+    "adverbs": ["inevitably", "fundamentally", "explicitly", "implicitly", "accordingly", "presumably", "notably", "consequently", "ironically", "respectively"],
+    "sentenceType": ["affirmative", "negative", "interrogative"],
+    "verbTense": ["present", "past", "future"]
+  },
+  "proficient": {
+    "subjects": ["the idea that knowledge is power", "whatever the consequences", "the assumption that he's right", "the extent to which this affects us", "how society perceives success", "the notion of personal freedom", "what defines identity", "those who challenge the norm", "the complexity of human behavior", "the implication of this theory"],
+    "verbs": ["hypothesize", "articulate", "synthesize", "substantiate", "scrutinize", "contextualize", "extrapolate", "conceptualize", "facilitate", "reiterate"],
+    "objects": ["a discourse", "an abstraction", "a paradigm", "a phenomenon", "a conjecture", "a framework", "a narrative", "a dialectic", "a construct", "a postulate"],
+    "adjectives": ["meticulous", "profound", "tentative", "coherent", "paradoxical", "elaborate", "nuanced", "comprehensive", "tangible", "epistemological"],
+    "adverbs": ["metaphorically", "ostensibly", "categorically", "exhaustively", "dialectically", "contextually", "transparently", "subsequently", "preemptively", "concisely"],
+    "sentenceType": ["affirmative", "negative", "interrogative"],
+    "verbTense": ["present", "past", "future"]
+  }
+}
